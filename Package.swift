@@ -16,7 +16,7 @@ let package = Package(
             name: "MyFlutterPackage",
             dependencies: [
                 "App", "Flutter", "camera_avfoundation", "file_picker", "flutter_secure_storage",
-                "FlutterPluginRegistrant", "geocoding_ios", "geolocator_apple", "image_picker_ios", "path_provider_foundation", "permission_handler_apple", "SDWebImage", "sqflite", "SwiftyGif", "url_launcher_ios"
+                "FlutterPluginRegistrant", "geocoding_ios", "geolocator_apple", "image_picker_ios", "path_provider_foundation", "permission_handler_apple", "sqflite", "SwiftyGif", "url_launcher_ios"
             ],
             path: "Sources/",
             publicHeadersPath: "."
@@ -32,7 +32,7 @@ let package = Package(
         .binaryTarget(name: "image_picker_ios", path: "Sources/image_picker_ios.xcframework"),
         .binaryTarget(name: "path_provider_foundation", path: "Sources/path_provider_foundation.xcframework"),
         .binaryTarget(name: "permission_handler_apple", path: "Sources/permission_handler_apple.xcframework"),
-        .binaryTarget(name: "SDWebImage", path: "Sources/SDWebImage.xcframework"),
+        //.binaryTarget(name: "SDWebImage", path: "Sources/SDWebImage.xcframework"),
         .binaryTarget(name: "sqflite", path: "Sources/sqflite.xcframework"),
         .binaryTarget(name: "SwiftyGif", path: "Sources/SwiftyGif.xcframework"),
         .binaryTarget(name: "url_launcher_ios", path: "Sources/url_launcher_ios.xcframework"),
